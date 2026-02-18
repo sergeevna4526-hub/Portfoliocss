@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {  
+
+    background-color: #f1f1f1;
+    color: #1a2335;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+a:hover {
+    text-decoration: underline;}
+
+    a:active {
+        color: bisque;
+    }
+
+.avatar {   
+    width: 300px;
+    border-radius: 40px;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;}
+
+@media (max-width:700px ) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    
+}
+
+
+
+    .info-text {
+        margin-left: 40px;
+    }
+
+   
+
+.info p {
+   color: #3e3f42}
+.conteiner {
+width: 75%;
+margin: auto;
+padding-top: 30px;
+}
+.bg-yellow { 
+
+    background-color: #fff9dc;
+}
+
+.bg-red { 
+    background-color: #ffc6c6;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    margin-bottom:  10px;}
+
+
+.list {
+padding: 0 20px;
+}
+
+.list li {
+    color: #515153;
+margin-bottom: 10px;}
+
+.massage {
+    background-color: #f5eaf0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.massage h2 {
+    
+text-align: center;}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    ;
+color: #86898f;}
+
+.form-group input, .form-group textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+color:#1a2335;
+padding: 15px 0 10px;
+outline: none;
+font-family: inherit;
+}
+
+.row {
+    display: flex;
+   margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+    }
+.row > .form-group:last-child {
+    margin-right: 0;}
+
+.btn{
+    border-color: #ffc6c6;
+    background-color: #f7e1e1;
+    padding: 15px 20px;
+    border-radius: 20px;
+ font-family: inherit;
+ cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffc6c6;
+opacity: 0.9;
+}
+
+}
